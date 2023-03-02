@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jockey One', sans-serif;;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px solid rgba(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 50px;
+    border: 0px solid rgba(0, 0, 0, 0.0);
+}
+
+header{
+    background-color: #293241;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+body{
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    gap: 60px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+#btn-home{
+    color: #DD4620;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#btn-team{
+    color: #293241;
+    background-color: #FFE463;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+#btn-login{
+    color: white;
+    background-color: #DD4620;
+    padding: 4px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.fa-solid{
+    padding: 0 2px;
+}
+
+.first-section{
+    background-image: url('https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt12c536b770bfdcd4/63880edf443fa70e71d4bfcd/mercy-00.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.shape1{
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: skew(-20deg);
+    margin-left: -10vw;
+    width: 52%;
+    height: 100vh;
+    position: absolute;
+    filter: blur(1px);
+}
+
+.shape2{
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: skew(-20deg);
+    margin-left: 77vw;
+    position: absolute;
+    width: 52%;
+    height: 100vh;
+    filter: blur(1px);
+}
+
+.topics{
+    position: relative;
+    background-color: #DD4620;
+    color: white;
+    transform: skew(-20deg);
+    padding: 7px 14px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+}
+
+.icon-topics{
+    color: #FFE463;
+}
+
+.second-section{
+    background: linear-gradient(85.52deg, #293241 2.58%, #414F67 105.77%);
+    height: 50vh;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20vw;
+}
+
+.third-section{
+    background: radial-gradient(71.76% 71.76% at 65.79% 37.4%, #FFE463 0%, #D69F3A 100%);
+    height: 50vh;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20vw;
+}
+
+.textos h1{
+    font-family: 'Jockey One', sans-serif;
+    font-family: 'VT323', monospace;
+    color: #DD4620;
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.textos p{
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.third-section :nth-child(2) :nth-child(2){
+    color: #374356;
+}
+
+.textos{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.img img{
+    aspect-ratio: auto;
+    height: 50vh;
+
+}
+
+
+
