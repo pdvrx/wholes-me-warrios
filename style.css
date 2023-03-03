@@ -214,6 +214,158 @@ nav ul li a{
     transition: ease-in-out 0.3s;
 }
 
+.paddings{
+    padding: 12vh 1vw;
+}
+
+.profile-section{
+    background-image: url('/imgs/Rectangle\ 19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.profile-section .profile-info, .game-info{
+    margin-bottom: 20px;
+}
+
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    align-items: flex-end;
+}
+
+.profile-pic img{
+    height: 40vh;
+
+}
+
+.profile-texts{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-texts img{
+    margin-bottom: 20px;
+}
+
+.profile-texts h3{
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.profile-texts h2{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.profile-texts p{
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 5px 0;
+}
+
+.game-info{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4%;
+    align-items: flex-end;
+}
+
+.game-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.game-pic img{
+    height: 25vh;
+}
+
+.game-texts h3{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-left: 2%;
+}
+
+.game-texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+
+}
+
+.game-texts-p{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-texts-p p{
+    color: white;
+    background-color: #DD4620;
+    padding: 10px 30px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.friends-section{
+    background-color: #293241;
+    border-radius: 15px;
+    width: 100%;
+    height: 40vh;
+    padding: 0 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    z-index: 3;
+}
+
+.friends-img{
+    display: flex;
+    gap: 50px;
+}
+
+.friends-img img{
+    height: 30vh;
+    
+}
+
+.friends-section h2{
+    color: white;
+    background-color: #DD4620;
+    padding: 9px 50px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
+
+.friends-text{
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    left: 2vw;
+    top: 40.5vh;
+}
+
+
 
 
 @media screen and (max-width: 480px){
