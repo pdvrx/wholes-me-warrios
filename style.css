@@ -188,3 +188,92 @@ nav ul li a{
 
 
 
+@media screen and (max-width: 480px){
+
+
+    header{
+        background-color: #293241;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    body{
+        overflow-x: hidden;
+        z-index: 1;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh 2vw;
+        align-items: center;
+    }
+    
+    nav ul{
+        max-width: 80%;
+        align-items: center;
+        gap: 3vw;
+    }
+    
+    
+    nav ul li a{
+        font-size: 0.8rem;
+    }
+    
+    
+    .first-section{
+        background-position: center;
+        background-size: cover;
+        filter: brightness(90%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .shape1{
+       opacity: 0;
+    }
+    
+    .shape2{
+        opacity: 0;
+    }
+
+    .topics{
+        font-size: 1rem;
+    }
+
+    .second-section{
+        flex-direction: column;
+        gap: 0vw;
+    }
+
+    .third-section{
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .textos h1{
+        font-size: 3rem;
+    }
+    
+    .textos p{
+        font-size: 1rem;
+    }
+
+    .textos{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .img img{
+        display: flex;
+        justify-content: flex-end;
+        height: 28vh;
+        transform: translateX(35%);
+    }
+
+}
